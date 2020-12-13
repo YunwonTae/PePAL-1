@@ -1,0 +1,24 @@
+train_src: PATH/train.srcmt.tok
+train_tgt: PATH/train.pe.tok
+train_uid: PATH/train.USER
+train_dom: PATH/train.10
+
+valid_src: PATH/valid.srcmt.tok
+valid_tgt: PATH/valid.pe.tok
+valid_uid: PATH/valid.USER
+valid_dom: PATH/valid.10
+
+save_data: PATH/30-d10-data
+
+src_vocab_size: 200000
+tgt_vocab_size: 200000
+
+shard_size: 100000
+
+bert_src: bert-base-multilingual-cased
+bert_tgt: bert-base-multilingual-cased
+
+src_seq_length: 300
+tgt_seq_length: 200
+
+domain: True
