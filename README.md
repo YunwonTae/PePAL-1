@@ -45,7 +45,7 @@ valid_tgt: PATH/valid.pe.tok
 valid_uid: PATH/valid.USER
 valid_dom: PATH/valid.10
 
-save_data: PATH/10-d10-data
+save_data: PATH/30-d10-data
 
 src_vocab_size: 200000
 tgt_vocab_size: 200000
